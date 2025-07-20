@@ -174,9 +174,9 @@ const AnimatedHero = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Button variant="outline" className="border-2 border-gray-300 text-gray-700 hover:border-red-600 hover:text-red-600 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300">
+                {/* <Button variant="outline" className="border-2 border-gray-300 text-gray-700 hover:border-red-600 hover:text-red-600 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300">
                   Voir la Démo
-                </Button>
+                </Button> */}
               </motion.div>
             </motion.div>
             

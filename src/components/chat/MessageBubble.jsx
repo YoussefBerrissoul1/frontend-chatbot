@@ -1,6 +1,6 @@
 import { Check, CheckCheck, Clock, Copy, ThumbsUp, ThumbsDown } from 'lucide-react';
 import { useState } from 'react';
-import nestleLogo from '../../assets/images/nestle-logo.jpg';
+import botIcon from '../../assets/images/BotIcon.png';
 
 const MessageBubble = ({ message, settings }) => {
   const [showActions, setShowActions] = useState(false);
@@ -63,8 +63,8 @@ const MessageBubble = ({ message, settings }) => {
       {isBot && (
         <div className="flex-shrink-0 mr-3">
           <img
-            src={nestleLogo}
-            alt="Assistant RH Nestlé"
+            src={botIcon}
+            alt="Bot Icon"
             className="w-8 h-8 rounded-full object-cover border-2 border-white dark:border-gray-800 shadow-sm"
           />
         </div>

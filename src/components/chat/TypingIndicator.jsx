@@ -1,4 +1,4 @@
-import nestleLogo from '../../assets/images/nestle-logo.jpg';
+import botIcon from '../../assets/images/BotIcon.png';
 
 const TypingIndicator = () => {
   return (
@@ -6,8 +6,8 @@ const TypingIndicator = () => {
       <div className="flex items-start space-x-3">
         <div className="flex-shrink-0">
           <img
-            src={nestleLogo}
-            alt="Assistant RH Nestlé"
+            src={botIcon}
+            alt="Bot Icon"
             className="w-8 h-8 rounded-full object-cover border-2 border-white dark:border-gray-800 shadow-sm"
           />
         </div>

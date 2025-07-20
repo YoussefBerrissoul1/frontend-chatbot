@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Settings, Sun, Moon, Minimize2, X, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import nestleLogo from '../../assets/images/nestle-logo.jpg';
+import botIcon from '../../assets/images/BotIcon.png';
 
 const ChatHeader = ({ settings, onSettingsChange }) => {
   const [showSettings, setShowSettings] = useState(false);
@@ -39,8 +39,8 @@ const ChatHeader = ({ settings, onSettingsChange }) => {
 
           <div className="relative">
             <img
-              src={nestleLogo}
-              alt="Logo Nestlé"
+              src={botIcon}
+              alt="Bot Icon"
               className="w-10 h-10 rounded-full object-cover border-2 border-white dark:border-gray-800 shadow"
             />
             <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-emerald-500 rounded-full border-2 border-white dark:border-gray-800">

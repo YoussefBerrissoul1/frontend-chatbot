@@ -47,13 +47,13 @@ const CTA = () => {
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </Link>
-            <Button 
+            {/* <Button 
               variant="outline" 
               className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               <Play className="w-5 h-5 mr-2" />
               Voir la Démo
-            </Button>
+            </Button> */}
           </div>
 
           {/* Features Grid */}

@@ -143,9 +143,9 @@ const Testimonials = () => {
               <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
                 Essayer Maintenant
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 hover:border-red-600 hover:text-red-600 px-8 py-4 rounded-full font-semibold transition-all duration-300">
+              {/* <button className="border-2 border-gray-300 text-gray-700 hover:border-red-600 hover:text-red-600 px-8 py-4 rounded-full font-semibold transition-all duration-300">
                 Planifier une Démo
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
